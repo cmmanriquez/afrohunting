@@ -467,7 +467,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 100px; }
+    padding-bottom: 100px;
+    margin: -2px; }
   .mail_mobile {
     font-family: Agrandir-Medium;
     text-transform: lowercase;
