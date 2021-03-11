@@ -1,0 +1,184 @@
+@media (max-width: 575px) {
+  /*carousel*/
+  .carousel_desktop{
+    display: none;
+  }
+  /*rrss*/
+  .main_rrss ul{
+    background-color: $rosa;
+    margin: 0;
+  }
+  .main_rrss-inline{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  }
+  ul{
+    padding: 0;
+  }
+
+  .main_rrss-inline li a img{
+  height: 35px;
+  width: 35px;
+  margin: 20px 10px 0 0;
+}
+  /*main text*/
+
+  .text_grid{
+    display: none;
+  }
+  .text_mobile{
+    display: block;
+    background-color: $rosa;
+    padding-bottom: 20px;
+  }
+  .text_mobile-yellow{
+    font-family: Agrandir-italic;
+    font-size: 14pt;
+    color: $amarillo;
+    padding: 80px 10px 20px 22px;
+    text-align: left;
+    line-height: 18pt;
+  }
+   .text_mobile-white{
+    font-family: Agrandir-Medium;
+    font-size: 10pt;
+    color: white;
+    text-align: left;
+    margin: 0;
+    padding: 30px 20px 10px 22px;
+  }
+  .main_mobile{
+    background-color: $rosa;
+  }
+  .main_mobile-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .mobile_linea{
+    margin: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 40px;
+  }
+  .mobile_logo{
+    max-width: 35%;
+    margin-left: 34px;
+  }
+  .text_mobile-white p{
+    margin-bottom: 10px;
+  }
+  /*contact*/
+  .section_contact-desktop{
+    display: none;
+  }
+  .section_contact-mobile{
+    background-color: $azul;
+  }
+  .section_inline-left-big{
+    font-family: Agrandir-italic;
+    font-size: 15pt;
+    color: $amarillo;
+    line-height: 17pt;
+    padding: 50px 0 0 20px;
+  }
+  .section_inline-left-small{
+    font-family: Agrandir-Medium;
+    font-size: 8pt;
+    color: $rosa;
+    padding: 10px 0 0 20px;
+  }
+  #exampleInputEmail1{
+    font-family: Agrandir-Medium;
+    font-size: 10pt;
+    background-color: $azul;
+    border-color: $amarillo;
+    border-radius: 0;
+    width: 200px;
+    margin-left: 20px;
+  }
+  .section_inline-right{
+    margin-top: 16px;
+  }
+  .btn-primary{
+    background-color: $rosa;
+    border: $rosa;
+    border-radius: 0;
+    font-family: SpaceMonoBold;
+    font-size: 8pt;
+    margin-right: 20px;
+  }
+  .btn-primary:hover{
+    background-color: $amarillo;
+    color: $azul;
+  }
+  .section_bottom{
+    font-family: SpaceMonoBold;
+    color: grey;
+    font-size: 5pt;
+    text-transform: uppercase;
+    padding: 10px 10px 20px 20px;
+  }
+  /*section final*/
+  .section_logo-final{
+    max-width: 100%;
+  }
+
+  /*footer*/
+  .footer_desktop{
+    display: none;
+  }
+  .section_logo-final{
+    display: none;
+  }
+  .footer_mobile-logo{
+    margin-top: 50px;
+  }
+  .section_logo-mobile{
+      max-width: 100%;
+    }
+    .footer_mobile{
+      background-color: $verde;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 100px;
+    }
+  .mail_mobile{
+    font-family: Agrandir-Medium;
+    text-transform: lowercase;
+    color: $amarillo;
+    font-size: 10pt;
+    margin-top: 20px;
+  }
+  .footer_rrss a{
+    font-family: SpaceMonoBold;
+    font-size: 8pt;
+    text-transform: uppercase;
+    color: $rosa;
+  }
+  .derechos_mobile{
+    font-family: Agrandir-Medium;
+    font-size: 10pt;
+    color: $rosa;
+    text-align: center;
+    margin: 30px;
+  }
+  .designers_mobile a{
+    display: inline;
+    font-family: SpaceMonoBold;
+    color: grey;
+    font-size: 7pt;
+    text-transform: uppercase;
+  }
+
+  /*botón*/
+  #toTopBtn{
+    display: none;
+  }
+}
