@@ -16,5 +16,5 @@ $(document).ready(function() {
     });
 
 $('.carousel').carousel({
-  interval: 1990
+  interval: 1900
 })

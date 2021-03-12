@@ -5,6 +5,16 @@
 .carousel_mobile{
   display: none;
 }
+.carousel-caption{
+  color: $amarillo;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.carousel-caption a{
+  color: $amarillo;
+}
 
   /*rrss*/
   .main_rrss ul{
@@ -21,8 +31,7 @@
 }
 
 .main_rrss-inline li a img{
-  height: 50px;
-  width: 50px;
+  margin: 10px;
 }
 
   /*main text*/
@@ -33,11 +42,13 @@
   	background-color: $rosa;
   	height: 1080px;
   	padding-top: 20px;
+    margin-top: -2px;
   	display: grid;
-  	grid-template-columns: 350px 350px;
-  	grid-template-rows: 300px 300px 190px auto;
+  	grid-template-columns: 400px 400px;
+  	grid-template-rows: 260px 100px 280px 180px 150px;
   	grid-template-areas:
   	"textYellow textYellow"
+    "linea linea"
   	"text01 text03"
   	"text02 text04"
   	"logo logo";
@@ -54,12 +65,15 @@
   }
   .mainText_top-white{
   	font-family: Agrandir-Medium;
-  	font-size: 13pt;
+    font-weight: lighter;
+  	font-size: 12pt;
   	color: white;
     text-align: left;
+    letter-spacing: 1pt;
   }
   .text-yellow{
   	grid-area: textYellow;
+    padding: 0 70px 0 60px;
   }
   .desktop_text01{
   	grid-area: text01;
@@ -73,23 +87,27 @@
   .desktop_text04{
   	grid-area: text04;
   }
+  .desktop_linea{
+    grid-area: linea;
+    margin: 20px 0 0 620px;
+  }
   .mainText_top-white01{
-    padding-right: 10px;
+    padding-right: 15px;
   }
   .mainText_top-white02{
-    padding-right: 10px;
+    padding-right: 15px;
   }
   .mainText_top-white03{
-    padding-left: 10px;
+    padding-left: 15px;
   }
   .mainText_top-white04{
-    padding-left: 10px;
+    padding-left: 15px;
     margin-top: -70px;
 
   }
   .main_logo{
   	grid-area: logo;
-  	padding-left: 70%;
+  	padding-left: 550px;
   }
 
   /*contact*/
@@ -104,6 +122,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
   }
   .section_inline-left{
   	font-family: Agrandir-italic;
@@ -127,7 +146,7 @@
   	color: grey;
   	text-transform: uppercase;
     padding-top: 12px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     margin: 0;
   }
   .section_inline-right{
@@ -152,7 +171,6 @@
   .btn-primary{
   	background-color: $rosa;
   	border: transparent;
-  	margin-top: 10px;
   	border-radius: 0;
   }
   .btn-primary:hover{
@@ -180,7 +198,9 @@
   	display: flex;
   	flex-direction: row;
   	justify-content: space-around;
-  	padding-bottom: 10px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin-top: -2px;
   }
   .designers{
   	font-family: Agrandir-Medium;
