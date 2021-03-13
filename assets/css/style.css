@@ -445,8 +445,7 @@
     flex-direction: row-reverse;
     margin-right: 40px; }
   .mobile_logo {
-    max-width: 35%;
-    margin-left: 34px; }
+    max-width: 100%; }
   .text_mobile-white p {
     margin-bottom: 10px; }
   /*contact*/
