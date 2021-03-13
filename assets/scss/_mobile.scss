@@ -9,22 +9,28 @@
     justify-content: flex-end;
     align-items: center;
     position: absolute;
-    top: 460px;
+    top: 360px;
+    padding-bottom: 0 !important;
   }
   .carousel-caption p{
     font-family: Agrandir-Medium;
     color: $amarillo;
     letter-spacing: 1pt;
     font-size: 7pt;
+    padding-top: 10px;
   }
   .carousel-caption a{
     font-family: Agrandir-Medium;
     color: $amarillo;
     letter-spacing: 1pt;
     font-size: 7pt;
+    padding-top: 10px;
   }
   .jorgeMarta{
-    margin-top: -22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
   }
   /*rrss*/
   .main_rrss ul{
