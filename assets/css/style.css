@@ -57,9 +57,11 @@
     align-items: center;
     justify-content: flex-end;
     list-style: none;
-    padding: 20px 65px 0 0; }
-  .main_rrss-inline li a img {
+    padding: 20px 40px 0 0; }
+  .main_rrss-inline li a i {
     margin: 10px; }
+  .fa-instagram, .fa-twitter-square, .fa-spotify {
+    color: #DCD600; }
   /*main text*/
   .text_mobile {
     display: none; }
@@ -232,12 +234,12 @@
     display: none; }
   .text_grid {
     background-color: #C082D5;
-    height: 1180px;
+    height: 1200px;
     padding: 20px 20px 0 20px;
     display: grid;
-    margin-bottom: -2px;
+    margin: -2px 0 -2px 0;
     grid-template-columns: 350px 350px;
-    grid-template-rows: 260px 100px 340px 400px auto;
+    grid-template-rows: 260px 100px 340px 180px auto;
     grid-template-areas: "textYellow textYellow" "linea linea" "text01 text03" "text02 text04" "logo logo";
     justify-content: center; }
   .mainText_top-yellow {
@@ -281,7 +283,7 @@
     margin-top: -120px; }
   .main_logo {
     grid-area: logo;
-    padding-left: 70%; }
+    padding-left: 60%; }
   /*rrss*/
   .main_rrss ul {
     background-color: #C082D5;
@@ -293,13 +295,16 @@
     justify-content: flex-end;
     list-style: none;
     padding: 20px 65px 0 0; }
-  .main_rrss-inline li a img {
+  .main_rrss-inline li a i {
     margin: 10px; }
+  .fa-instagram, .fa-twitter-square, .fa-spotify {
+    color: #DCD600; }
   /*contact*/
   .section_contact-mobile {
     display: none; }
   .section_contact-desktop {
-    background-color: #00235B; }
+    background-color: #00235B;
+    margin-top: -2px; }
   .section_inline {
     display: flex;
     flex-direction: row;
@@ -408,8 +413,10 @@
     list-style: none; }
   ul {
     padding: 0; }
-  .main_rrss-inline li a img {
-    margin: 0 10px 0 10px; }
+  .main_rrss-inline li a i {
+    margin: 25px 10px 0 10px; }
+  .fa-instagram, .fa-twitter-square, .fa-spotify {
+    color: #DCD600; }
   /*main text*/
   .text_grid {
     display: none; }
@@ -422,7 +429,7 @@
     font-family: Agrandir-italic;
     font-size: 14pt;
     color: #DCD600;
-    padding: 80px 10px 20px 22px;
+    padding: 50px 10px 20px 22px;
     text-align: left;
     line-height: 18pt; }
   .text_mobile-white {

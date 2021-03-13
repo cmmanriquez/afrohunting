@@ -20,12 +20,12 @@
   }
   .text_grid{
   	background-color: $rosa;
-  	height: 1180px;
+  	height: 1200px;
   	padding: 20px 20px 0 20px;
   	display: grid;
-    margin-bottom: -2px;
+    margin: -2px 0 -2px 0;
   	grid-template-columns: 350px 350px;
-  	grid-template-rows: 260px 100px 340px 400px auto;
+  	grid-template-rows: 260px 100px 340px 180px auto;
   	grid-template-areas:
   	"textYellow textYellow"
     "linea linea"
@@ -88,7 +88,7 @@
   }
   .main_logo{
   	grid-area: logo;
-  	padding-left: 70%;
+  	padding-left: 60%;
   }
   /*rrss*/
   .main_rrss ul{
@@ -103,9 +103,12 @@
   list-style: none;
   padding: 20px 65px 0 0;
 }
-
-.main_rrss-inline li a img{
+.main_rrss-inline li a i{
   margin: 10px;
+
+}
+.fa-instagram, .fa-twitter-square, .fa-spotify{
+  color: $amarillo;
 }
   /*contact*/
   .section_contact-mobile{
@@ -113,6 +116,7 @@
   }
   .section_contact-desktop{
   	background-color: $azul;
+    margin-top: -2px;
   }
   .section_inline{
     display: flex;

@@ -19,9 +19,13 @@
     padding: 0;
   }
 
-  .main_rrss-inline li a img{
+  .main_rrss-inline li a i{
 
-  margin:0 10px 0 10px;
+  margin:25px 10px 0 10px;
+}
+
+.fa-instagram, .fa-twitter-square, .fa-spotify{
+  color: $amarillo;
 }
   /*main text*/
 
@@ -38,7 +42,7 @@
     font-family: Agrandir-italic;
     font-size: 14pt;
     color: $amarillo;
-    padding: 80px 10px 20px 22px;
+    padding: 50px 10px 20px 22px;
     text-align: left;
     line-height: 18pt;
   }
