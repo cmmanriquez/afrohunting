@@ -4,13 +4,18 @@
   display: none;
 }
 .carousel-caption{
-  color: $amarillo;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-end;
 }
+.carousel-caption p{
+  font-family: Agrandir-Medium;
+  color: $amarillo;
+  letter-spacing: 1pt;
+}
 .carousel-caption a{
+  font-family: Agrandir-Medium;
   color: $amarillo;
 }
   /*main text*/

@@ -3,6 +3,23 @@
   .carousel_desktop{
     display: none;
   }
+  .carousel-caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 460px;
+  }
+  .carousel-caption p{
+    font-family: Agrandir-Medium;
+    color: $amarillo;
+    letter-spacing: 1pt;
+  }
+  .carousel-caption a{
+    font-family: Agrandir-Medium;
+    color: $amarillo;
+  }
   /*rrss*/
   .main_rrss ul{
     background-color: $rosa;

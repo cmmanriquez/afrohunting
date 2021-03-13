@@ -40,12 +40,16 @@
   .carousel_mobile {
     display: none; }
   .carousel-caption {
-    color: #DCD600;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-end; }
+  .carousel-caption p {
+    font-family: Agrandir-Medium;
+    color: #DCD600;
+    letter-spacing: 1pt; }
   .carousel-caption a {
+    font-family: Agrandir-Medium;
     color: #DCD600; }
   /*rrss*/
   .main_rrss ul {
@@ -222,12 +226,16 @@
   .carousel_mobile {
     display: none; }
   .carousel-caption {
-    color: #DCD600;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-end; }
+  .carousel-caption p {
+    font-family: Agrandir-Medium;
+    color: #DCD600;
+    letter-spacing: 1pt; }
   .carousel-caption a {
+    font-family: Agrandir-Medium;
     color: #DCD600; }
   /*main text*/
   .text_mobile {
@@ -401,6 +409,20 @@
   /*carousel*/
   .carousel_desktop {
     display: none; }
+  .carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 460px; }
+  .carousel-caption p {
+    font-family: Agrandir-Medium;
+    color: #DCD600;
+    letter-spacing: 1pt; }
+  .carousel-caption a {
+    font-family: Agrandir-Medium;
+    color: #DCD600; }
   /*rrss*/
   .main_rrss ul {
     background-color: #C082D5;
