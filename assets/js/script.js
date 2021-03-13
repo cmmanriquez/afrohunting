@@ -14,7 +14,3 @@ $(document).ready(function() {
     return false;
     });
     });
-
-$('.carousel').carousel({
-  interval: 1900
-})
