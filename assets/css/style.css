@@ -117,9 +117,10 @@
   .mainText_top-white04 {
     padding-left: 15px;
     margin-top: -70px; }
-  .main_logo {
+  .main_logo svg {
     grid-area: logo;
-    padding-left: 550px; }
+    padding-left: 550px;
+    height: 70%; }
   /*contact*/
   .section_contact-mobile {
     display: none; }
@@ -213,8 +214,8 @@
     font-size: 8pt;
     color: #DCD600;
     padding-top: 16px; }
-  .footer_logo img {
-    padding-top: 8px; }
+  .footer_logo {
+    width: 16%; }
   .link {
     text-decoration: none;
     color: #DCD600; }
@@ -291,7 +292,8 @@
     margin-top: -120px; }
   .main_logo {
     grid-area: logo;
-    padding-left: 60%; }
+    padding-left: 60%;
+    max-width: 80%; }
   /*rrss*/
   .main_rrss ul {
     background-color: #C082D5;
@@ -397,8 +399,8 @@
     font-size: 7pt;
     color: #DCD600;
     padding-top: 16px; }
-  .footer_logo img {
-    padding-top: 8px; }
+  .footer_logo {
+    width: 16%; }
   .link {
     text-decoration: none;
     color: #DCD600; }

@@ -114,9 +114,10 @@
     margin-top: -70px;
 
   }
-  .main_logo{
+  .main_logo svg{
   	grid-area: logo;
   	padding-left: 550px;
+    height: 70%;
   }
 
   /*contact*/
@@ -235,8 +236,8 @@
   	color: $amarillo;
     padding-top: 16px;
   }
-  .footer_logo img{
-    padding-top: 8px;
+  .footer_logo{
+    width: 16%;
   }
 
   .link{
