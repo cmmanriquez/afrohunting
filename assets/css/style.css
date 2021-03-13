@@ -437,6 +437,8 @@
     color: #DCD600;
     letter-spacing: 1pt;
     font-size: 7pt; }
+  .jorgeMarta {
+    margin-top: -22px; }
   /*rrss*/
   .main_rrss ul {
     background-color: #C082D5;
@@ -512,6 +514,7 @@
   #exampleInputEmail1 {
     font-family: Agrandir-Medium;
     font-size: 10pt;
+    color: #DCD600;
     background-color: #00235B;
     border-color: #DCD600;
     border-radius: 0;
