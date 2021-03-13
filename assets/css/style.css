@@ -47,10 +47,13 @@
   .carousel-caption p {
     font-family: Agrandir-Medium;
     color: #DCD600;
-    letter-spacing: 1pt; }
+    letter-spacing: 1pt;
+    font-size: 8pt; }
   .carousel-caption a {
     font-family: Agrandir-Medium;
-    color: #DCD600; }
+    color: #DCD600;
+    letter-spacing: 1pt;
+    font-size: 8pt; }
   /*rrss*/
   .main_rrss ul {
     background-color: #C082D5;
@@ -172,7 +175,8 @@
   .btn-primary {
     background-color: #C082D5;
     border: transparent;
-    border-radius: 0; }
+    border-radius: 0;
+    font-size: 8pt; }
   .btn-primary:hover {
     background-color: #DCD600;
     color: #00235B; }
@@ -234,10 +238,13 @@
   .carousel-caption p {
     font-family: Agrandir-Medium;
     color: #DCD600;
-    letter-spacing: 1pt; }
+    letter-spacing: 1pt;
+    font-size: 8pt; }
   .carousel-caption a {
     font-family: Agrandir-Medium;
-    color: #DCD600; }
+    color: #DCD600;
+    letter-spacing: 1pt;
+    font-size: 8pt; }
   /*main text*/
   .text_mobile {
     display: none; }
@@ -362,6 +369,8 @@
     background-color: #C082D5;
     border: transparent;
     border-radius: 0; }
+  .btn .btn-primary {
+    font-size: 8pt; }
   .btn-primary:hover {
     background-color: #DCD600;
     color: #00235B; }
@@ -421,10 +430,13 @@
   .carousel-caption p {
     font-family: Agrandir-Medium;
     color: #DCD600;
-    letter-spacing: 1pt; }
+    letter-spacing: 1pt;
+    font-size: 7pt; }
   .carousel-caption a {
     font-family: Agrandir-Medium;
-    color: #DCD600; }
+    color: #DCD600;
+    letter-spacing: 1pt;
+    font-size: 7pt; }
   /*rrss*/
   .main_rrss ul {
     background-color: #C082D5;
@@ -512,7 +524,7 @@
     border: #C082D5;
     border-radius: 0;
     font-family: SpaceMonoBold;
-    font-size: 8pt;
+    font-size: 6pt;
     margin-right: 20px; }
   .btn-primary:hover {
     background-color: #DCD600;
