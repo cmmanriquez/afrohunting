@@ -1,0 +1,35 @@
+@import "variables";
+@import "boton";
+@import "desktop";
+@import "ipad";
+@import "mobile";
+
+html{
+	margin: 0;
+	padding: 0;
+	background-color: $rosa;
+}
+a{
+  text-decoration: none;
+}
+
+p{
+	margin: 0;
+}
+
+@font-face {
+	src: url("Agrandir-GrandHeavyItalic.ttf");
+	font-family: Agrandir-italic
+}
+@font-face {
+	src: url("Agrandir-Normal-Medium.ttf");
+	font-family: Agrandir-Medium;
+}
+@font-face {
+	src: url("Salvaje-DisplayItalic.otf");
+	font-family: Salvaje;
+}
+@font-face {
+	src: url("SpaceMonoBold.ttf");
+	font-family: SpaceMonoBold;
+}
